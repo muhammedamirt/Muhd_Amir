@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import amir from '@/assets/amir.jpg'
+// import amir from '@/assets/amir1.webp'
 import { RESUME_URL } from '@/constans/common'
 import PageTitle from '../components/PageTitle'
 
@@ -22,7 +22,7 @@ export default function AboutPage() {
       <PageTitle title="About" />
       <div className="md:flex">
         <div className="mb-5 md:w-56">
-          <Image src={amir} alt="Foto dede ariansya" className="block w-full" placeholder="blur" />
+          <Image src="/media/amir1.webp" alt="Foto dede ariansya" className="block w-full" placeholder="blur" />
         </div>
         <div className="md:flex-1 md:pl-6">
           <h2 className="mb-2 text-xl font-bold">I’m Muhammed Amir</h2>

@@ -3,7 +3,7 @@
 import React, { memo } from 'react'
 import Image from 'next/image'
 import { FiVolume2, FiVolumeX } from 'react-icons/fi'
-import background from '@/assets/background.webp'
+import background from '@/assets/Amir.webp'
 import { useRootBackground } from '@/contexts/RootBackgroundContext'
 
 const RootBackground: React.FC = () => {
